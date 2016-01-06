@@ -1,10 +1,783 @@
-<!doctype html> 
-<html lang="ko">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello World! - Start Portfolio</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-작업중...
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Hello World</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+					<!--
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+					-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">Start</span>
+                        <hr class="star-light">
+                        <span class="skills">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>한국산업단지공단 <br>고객관계관리시스템</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kicox1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>대한영양사협회 <br>회원&교육관리시스템</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dietitian1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>정보화마을 <br>홈페이지&전자상거래 서비스</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/invil1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>현대리바트 <br>쇼핑몰 고도화</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/livart1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>GS스포츠 <br>선수평가시스템</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/gs1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>대한펜싱협회 <br>고도화</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/fencing1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>T로밍KIOSK <br>로밍서비스</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/roaming1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>온나라포털 <br>고도화</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/onnara1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>				
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>동부익스프레스 <br/>고도화</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/dongbu1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+								<p>카드넷 <br>운영&개발</p>								
+                            </div>
+                        </div>
+                        <img src="img/portfolio/kardnet1.png" class="img-responsive" alt="" style="width:360px;height:260px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+	<!--
+    <section id="contact">
+        
+    </section>
+	-->
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Freelancer</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Your Website 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/kicox1.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://www.kicox.or.kr/" target="_blank">http://www.kicox.or.kr/</a></p>
+                            <p class="textLF"><span class="tx_org">"한국산업단지공단 고객관계관리시스템" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"spring 4.x"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"mybatis 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"oracle 10g"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.7"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">""</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl"> "개인정보 암호화(damo),</span><br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">한국신용평가&팩토리온 타 시스템 연계, 도로명주소 연계,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">설문척도관리,설문진단표관리,설문진단문항관리,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">권한관리,메뉴관리,기업이력관리,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">sms&메일 발송, sso 구현 "</span><br>
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">한국산업단지공단
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2015.09 ~ 2015.12
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/dietitian1.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://www.dietitian.or.kr" target="_blank">http://www.dietitian.or.kr</a></p>
+                            <p class="textLF"><span class="tx_org">"대한영양사협회 회원&교육관리시스템" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"spring 4.x, struts2"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"mybatis 3.x, ibatis 2.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"mssql 2008"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.7"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">"lombok"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl"> "asp -> java 마이그레이션, 개인정보 암호화(damo),</span> <br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">보건복지부 영양사 실태신고, 실태신고 관리,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">ipin&kcp휴대폰 본인인증, sms&메일 발송,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">엑셀 다운로드&db insert"</span> <br>
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">대한영양사협회
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2015.04 ~ 2015.08
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/invil1.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://invil.org" target="_blank">http://invil.org</a></p>
+                            <p class="textLF"><span class="tx_org">"정보화마을 홈페이지&전자상거래 서비스" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"spring 3.x"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"mybatis 3.x, ibatis 2.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"cubrid"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.6"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">"spring security 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"CMS 솔루션 커스터마이징,</span><br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">오라클 to CUBRID 마이그레이션,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">마을-전자상거래 연동,기상청 날씨연동"</span><br> 
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">지역정보개발원
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2014.08 ~ 2015.03
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/livart1.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://mall.hyundailivart.co.kr" target="_blank">http://mall.hyundailivart.co.kr</a></p>
+                            <p class="textLF"><span class="tx_org">"현대리바트 쇼핑몰 고도화" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework" </span>: <span class="tx_bl">"전자정부3.x"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"ibatis 2.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"mssql 2008"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.6"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">"jqgrid"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"구매마일리지적립, 포토상품평</span>,<br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">금칙어관리, 검색순위관리, 통계"</span><br> 
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">현대리바트
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2014.06 ~ 2014.08
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/gs1.png" class="img-responsive img-centered" alt="">
+                            <p class="textLF"><span class="tx_org">"GS스포츠 선수평가시스템" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework" </span>: <span class="tx_bl">"spring 3.x"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"mybatis 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"oracle 10g"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.6"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">"spring security 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"코드관리,평가항목 매칭,</span> <br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">비교평가 조회,구글차트"</span><br> 
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">GS스포츠
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2013.05 ~ 2013.06
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/fencing1.png" class="img-responsive img-centered" alt="">
+							<p><a href="https://fencing.sports.or.kr" target="_blank">https://fencing.sports.or.kr</a></p>
+                            <p class="textLF"><span class="tx_org">"대한펜싱협회 고도화" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"spring 3.x"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"mybatis 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"mysql 5.5"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.7"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">"spring security 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"홈페이지 관리, 멀티게시판"</span><br>
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">대한펜싱협회
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2013.07 ~ 2013.08
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/roaming1.png" class="img-responsive img-centered" alt="">							
+                            <p class="textLF"><span class="tx_org">"T로밍KIOSK 로밍서비스" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"spring 3.x"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"mybatis 3.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"mysql 5.5"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.6"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">"wsdl, kiosk"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"NGCP 연동 업로드 조회,</span><br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">ECG 연동 SK로밍 요금제 가입/해지"</span><br> 
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">SK텔레콤
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2013.04 ~ 2014.05
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/onnara1.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://www.onnara.go.kr" target="_blank">http://www.onnara.go.kr</a></p>
+                            <p class="textLF"><span class="tx_org">"온나라포털 고도화" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"skcc"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"ibatis 2.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"oracle 10g"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.4"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">""</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"아파트&토지 실 거래가,</span><br>
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">부동산 통계, 개별공시지가 조회,</span><br> 
+									<span class="ml100"></span><span class="ml90"></span><span class="ml16"></span><span class="tx_bl">지도 연동"</span> <br>
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">LH주택공사
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2012.10 ~ 2013.01
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/dongbu1.png" class="img-responsive img-centered" alt="">
+							<p><a href="https://www.dongbuexpress.com" target="_blank">https://www.dongbuexpress.com</a></p>
+                            <p class="textLF"><span class="tx_org">"동부익스프레스 고도화" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"spring 2.x, struts2"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"ibatis 2.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"oracle 10g"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.6"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">""</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"멀티 게시판 추가, 기능 고도화"</span><br>
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">동부익스프레스
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2012.06 ~ 2012.07
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Project Title</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/kardnet1.png" class="img-responsive img-centered" alt="">
+							<p><a href="http://www.ubi-pay.com" target="_blank">http://www.ubi-pay.com</a></p>
+                            <p class="textLF"><span class="tx_org">"카드넷 운영&개발" : </span><br>{<br>
+									<span class="ml30"></span><span class="tx_red">"framework"</span> : <span class="tx_bl">"struts"</span>,<br>
+									<span class="ml30"></span><span class="tx_red">"persistence"</span> : <span class="tx_bl">"ibatis 2.x"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"dbms"</span> : <span class="tx_bl">"oracle 8i"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"java"</span> : <span class="tx_bl">"1.4"</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"etc"</span> : <span class="tx_bl">""</span>, <br>
+									<span class="ml30"></span><span class="tx_red">"Project Details"</span> : <span class="tx_bl">"기업 관리, ipin&실명 인증, 서비스 운영"</span><br>
+							}</p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong class="color1">카드넷
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong class="color1">2012.03 ~ 2013.03
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong class="color1">Web Development
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
+
 </html>
